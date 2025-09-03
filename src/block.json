@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "wc-like-dislike/like-dislike-block",
+    "version": "1.0.0",
+    "title": "Product Like/Dislike",
+    "category": "woocommerce",
+    "icon": "thumbs-up",
+    "description": "Allow authenticated users to like or dislike WooCommerce products",
+    "supports": {
+      "html": false,
+      "align": true
+    },
+    "textdomain": "wc-like-dislike",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "none"
+      }
+    }
+  }
